@@ -1,0 +1,68 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Game/App</title>
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="return-meniu">
+			<img src="images/return.png" alt="return-home" id="return-image">
+		</div>
+
+		<div id="options">
+				<img src="images/settings.png" alt="options" data-toggle="modal" data-target="#options-modal" class="options-modal">
+			<!-- options-modal -->
+			<div class="modal fade" id="options-modal" tabindex="-1" role="dialog" aria-labelledby="optionsModalLabel" aria-hidden="true">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      				<div class="modal-body">
+      					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<p class="text-center">
+							<img src="images/sound.png" alt="sound">
+						</p>
+						<p class="text-center">
+							<img src="images/help.png" alt="help">
+						</p>
+						<p class="text-center">
+							<img src="images/credits.png" alt="credits">
+						</p>
+						<p class="text-center">
+							<img src="images/back.png" alt="close"  data-dismiss="modal">
+						</p>
+      				</div><!-- end of modal-body-->
+    				</div><!-- end of modal-content-->
+  				</div><!-- end of modal-dialog-->
+			</div><!-- end of options-modal-->
+		</div><!-- end of options -->
+
+		<div id="score">
+			<div id="score-wrapper">
+				<img src="images/icecream1.png" alt="icecreams" id="icecream-image">
+				<h2 id="icecream-score">5</h2>
+			</div>
+			<div id="score-wrapper1">
+				<img src="images/hearth.png" alt="hearth" id="hearth-image">
+				<h3 id="hearth-score">4</h3>
+			</div>
+		</div>
+
+		<div id="char-walking">
+			<img src="images/character-walking.png" alt="character-walking" id="main-char">
+		</div>
+
+
+	</div><!-- end of wrapper-->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+</body>
+
+</html>
